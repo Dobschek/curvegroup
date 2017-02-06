@@ -1,0 +1,83 @@
+
+<head>
+<title>Curve Group</title> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="YES">
+<meta name="description" content="Curve Group website">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+<div class="screen">
+  <header>
+    <a class="target-burger">
+      <ul class="buns">
+        <li class="bun"></li>
+        <li class="bun"></li>
+      </ul>
+      <!--buns-->
+    </a>
+    <!--target-burger-->
+  </header>
+  <nav class="main-nav" role="navigation">
+    <ul>
+      <li><a href=""><span>Home</span></a></li>
+      <li><a href=""><span>About Us</span></a></li>
+      <li><a href=""><span>Clients</span></a></li>
+      <li><a href=""><span>Vacancies</span></a></li>
+      <li><a href=""><span>Milestones</span></a></li>
+	  <li><a href=""><span>Contact Us</span></a></li>
+    </ul>
+  </nav>
+<div class="container">
+<div class="app-content">
+<img id="logo" src="images/Curve%20logo.png" alt="Curve Group Logo">
+<div class="services">
+    
+<a href="curve_bank.html">
+<span class="banking">
+<h1>Banking</h1>
+
+        </span></a>
+    
+<a href="curve_flex.html">
+<span class="flex">
+<h1>Flex</h1>
+
+</span></a>
+
+<a href="curve_system.html">
+<span class="systems">
+
+<h1>Systems</h1>
+    </span></a>
+    
+<a href="curve_tech.html">
+<span class="technology">
+
+<h1>Technology</h1>
+
+    </span></a>
+</div>
+  
+  </div>
+    <!--app-content-->
+  </div>
+  <!--contaienr-->
+</div>
+<!--screen-->
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>$(document).ready(function () {
+    $('a.target-burger').click(function (e) {
+        $('div.container, nav.main-nav, a.target-burger').toggleClass('toggled');
+        e.preventDefault();
+    });
+});
+//# sourceURL=pen.js
+</script>
+</body>
+
+
